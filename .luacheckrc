@@ -23,6 +23,7 @@ read_globals = {
 
     "pipeworks",
     "xcompat",
+    "mesecon",
 
     table = {
         fields = {

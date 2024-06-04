@@ -23,6 +23,9 @@
 
 ## License of media
 
-Unless otherwise specified, this aplies to all media in this repository.
+Unless otherwise specified, [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) aplies to all media in this repository.
 
-This work © 2024 by 1F616EMO is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+Here lists the authors:
+
+* `moretubes_tube_straight.png`, `moretubes_conductor_tube_*.png`: Vanessa Ezekowitz, modified by 1F616EMO
+* `moretubes_one_way_tube_overlay.png`, `moretubes_straight_tube_overlay.png`: Ekdohibs, modified by 1F616EMO

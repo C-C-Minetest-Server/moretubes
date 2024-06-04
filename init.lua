@@ -9,6 +9,7 @@ for _, name in ipairs({
 	"eject",
 	"low_priority",
 	"reverse",
+	"straight",
 }) do
 	dofile(MP .. DIR_DELIM .. "src" .. DIR_DELIM .. name .. ".lua")
 end
