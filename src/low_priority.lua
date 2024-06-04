@@ -17,3 +17,14 @@ pipeworks.register_tube("moretubes:low_priority_tube", {
         tube = { priority = 45 } -- Lower than tubes and receivers (50, 100 resp.)
     },
 })
+
+if xcompat.materials.coal_lump then
+    minetest.register_craft({
+        output = "moretubes:low_priority_tube 6",
+        recipe = {
+            { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" },
+            { xcompat.materials.coal_lump,     "",                              xcompat.materials.coal_lump },
+            { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
+        },
+    })
+end

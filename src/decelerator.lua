@@ -25,12 +25,12 @@ pipeworks.register_tube("moretubes:decelerator_tube", {
     }
 })
 
-if minetest.get_modpath("default") then
+if xcompat.materials.dirt then
     minetest.register_craft({
         output = "moretubes:decelerator_tube_1 2",
         recipe = {
             { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" },
-            { "",                              "default:dirt",                  "" },
+            { "",                              xcompat.materials.dirt,          "" },
             { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
         },
     })

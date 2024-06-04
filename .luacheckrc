@@ -22,6 +22,7 @@ read_globals = {
     "vector",
 
     "pipeworks",
+    "xcompat",
 
     table = {
         fields = {
