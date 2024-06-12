@@ -201,7 +201,7 @@ if mod_mesecons then
     minetest.register_craft({
         type = "shapeless",
         output = "moretubes:conducting_one_way_tube_off",
-        recipe = { "pipeworks:tube_1", "mesecons:mesecon" }
+        recipe = { "pipeworks:one_way_tube", "mesecons:mesecon" }
     })
 
     minetest.register_craft({
